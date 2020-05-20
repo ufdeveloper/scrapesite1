@@ -94,6 +94,36 @@ body {
     color: dodgerblue;
 }
 
+#resume {
+    padding-top: 50px;
+}
+
+#title {
+    width: 35%;
+}
+
+#company {
+    width: 65%;
+}
+
+.companylogo {
+    width: 3rem;
+    height: 3rem;
+    background-color: darkorange;
+    border-radius: 50%;
+    width: 5%;
+}
+
+.companylogo i {
+    position: relative;
+    left: 30%;
+    top: 20%;
+}
+
+.jobdescription {
+    width: 95%;
+}
+
 @media (max-width: 768px) {
     .navbar {
         background-color: #1f1f1f;
