@@ -1,10 +1,13 @@
 html {
     scroll-behavior: smooth;
     /*overflow: hidden; !* Hide scrollbars *!*/
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
     font-family: "Raleway", sans-serif;
+    /*background-color: #1f1d1a;*/
 }
 
 .navbar {
@@ -96,22 +99,32 @@ body {
 
 #resume {
     padding-top: 50px;
+    /*background-color: #161415;*/
+    /*color: white;*/
 }
 
-/*#title {*/
-/*    width: 35%;*/
-/*}*/
+#resume p, h5 {
+    font-size: 1.1rem;
+}
 
-/*#company {*/
-/*    width: 65%;*/
-/*}*/
+#resume h3 {
+    color: dodgerblue;
+    /*color: seagreen;*/
+    /*color: brown;*/
+}
 
-.companylogo {
-    width: 3rem;
-    height: 3rem;
-    background-color: darkorange;
-    border-radius: 50%;
-    /*width: 5%;*/
+.experience-wrapper {
+    position: relative;
+}
+
+.experience-container::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 37%;
 }
 
 .companylogo i {
@@ -122,9 +135,13 @@ body {
     margin-top: 5px;
 }
 
-/*.jobdescription {*/
-/*    width: 95%;*/
-/*}*/
+.companylogo-bg {
+    width: 3rem;
+    height: 3rem;
+    /*background-color: darkorange;*/
+    background-color: #a39d96;
+    border-radius: 50%;
+}
 
 @media (max-width: 768px) {
     .navbar {
@@ -141,5 +158,27 @@ body {
 
     #showcase h1 {
         font-size: 4rem;
+    }
+
+    .experience-container::before {
+        left: 38%;
+    }
+}
+
+@media (min-width: 768px) {
+    .experience-container::before {
+        left: 38.3%;
+    }
+}
+
+@media (min-width: 992px) {
+    .experience-container::before {
+        left: 37%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .experience-container::before {
+        left: 36.4%;
     }
 }
