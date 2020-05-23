@@ -124,7 +124,7 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 37%;
+    left: 6%;
 }
 
 .companylogo i {
@@ -139,7 +139,7 @@ body {
     width: 3rem;
     height: 3rem;
     /*background-color: darkorange;*/
-    background-color: #a39d96;
+    background-color: #e3deda;
     border-radius: 50%;
 }
 
@@ -159,9 +159,11 @@ body {
     #showcase h1 {
         font-size: 4rem;
     }
+}
 
+@media (min-width: 576px) {
     .experience-container::before {
-        left: 38%;
+        left: 4.8%;
     }
 }
 
