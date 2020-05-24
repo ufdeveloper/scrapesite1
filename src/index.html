@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
+    <title>Shantanu Sardal</title>
+    <meta name="description" content="Shantanu Sardal's Personal Website" />
+    <meta property="og:title" content="Shantanu Sardal" />
+    <meta property="og:description" content="Shantanu Sardal's Personal Website" />
+    <meta property="og:url" content="http://www.shantanusardal.com" />
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://s3.amazonaws.com/www.shantanusardal.com/profile.png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,14 +20,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" href="./css/app.css">
-    <title>Shantanu Sardal</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-<!--        <a class="navbar-brand" href="#">-->
-<!--            <h3 class="mb-0">Home</h3>-->
-<!--        </a>-->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +55,7 @@
     <section id="showcase">
         <div id="header" class="container text-white text-center d-flex flex-column justify-content-center align-items-center">
             <h1 class="display-1">Shantanu Sardal</h1>
-            <p class="lead">Software Engineer &nbsp; | &nbsp; Okta</p>
+            <p class="lead">Software Engineer &nbsp; | &nbsp; <a href="https://www.okta.com/" target="_blank">Okta</a></p>
             <div id="social" class="d-flex justify-content-around mt-3">
                 <a href="https://github.com/ufdeveloper" target="_blank" class="mx-3"><i class="fab fa-github fa-2x"></i></a>
                 <a href="https://www.linkedin.com/in/shantanusardal/" target="_blank" class="mx-3"><i class="fab fa-linkedin-in fa-2x"></i></a>
@@ -67,8 +70,8 @@
     <section id="resume" class="container">
         <div class="text-center">
             <h4>Resume</h4>
-            <h2>More of my credentials</h2>
-            <p class="lead">Here are my work experiences and education.</p>
+            <h2>8+ years of software development experience</h2>
+            <p class="lead">Following is my work experience and education history</p>
         </div>
 
         <section id="workex">
@@ -87,7 +90,7 @@
                             </div>
                         </div>
                         <div class="col-10 ml-auto order-3 col-md-7 pl-md-3">
-                            <h3>Okta</h3>
+                            <h3><a href="https://www.okta.com/" target="_blank">Okta</a></h3>
                             <p class="lead">I am currently working on the Federations team to provide all background functionality for authentication</p>
                         </div>
                     </div>
@@ -103,7 +106,7 @@
                             </div>
                         </div>
                         <div class="col-10 ml-auto order-3 col-md-7 pl-md-3">
-                            <h3>LogMeIn Inc.</h3>
+                            <h3><a href="https://www.logmein.com/" target="_blank">LogMeIn Inc.</a></h3>
                             <p class="lead">I worked on the core services of the GoToWebinar backend. I gained a lot of experience in building microservices while we moved most of our services to the AWS cloud</p>
                         </div>
                     </div>
@@ -119,7 +122,7 @@
                             </div>
                         </div>
                         <div class="col-10 ml-auto order-3 col-md-7 pl-md-3">
-                            <h3>Egen Solutions</h3>
+                            <h3><a href="https://egen.solutions/" target="_blank">Egen Solutions</a></h3>
                             <p class="lead">I worked on the content management system for our client BestBuy. I got my first experience working with SpringBoot and AngularJS during my short stint here</p>
                         </div>
                     </div>
@@ -144,7 +147,7 @@
                             </div>
                         </div>
                         <div class="col-10 ml-auto order-3 col-md-7 pl-md-3">
-                            <h3>University Of Florida</h3>
+                            <h3><a href="https://www.cise.ufl.edu" target="_blank">University Of Florida</a></h3>
                             <p class="lead">Courses - Introduction to Algorithms, Advanced Data Structures, Database Management Systems, Cloud Computing, Mobile Networking, Distributed Operating Systems</p>
                         </div>
                     </div>
@@ -161,14 +164,46 @@
                             </div>
                         </div>
                         <div class="col-10 ml-auto order-3 col-md-7 pl-md-3">
-                            <h3>University Of Mumbai</h3>
+                            <h3><a href="https://mu.ac.in" target="_blank">University Of Mumbai</a></h3>
                             <p class="lead">Courses - Introduction to Algorithms, Advanced Data Structures, Database Management Systems, Cloud Computing, Mobile Networking, Distributed Operating Systems</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+    </section>
 
+    <section id="contact">
+        <div id="contact-container" class="container-fluid mt-5 py-5 text-light">
+            <div class="text-center">
+                <h4>Contact Me</h4>
+                <h5 class="mb-5">Feel to reach out to me via any of the means below. I will do my best to get back to you.</h5>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
+                        <a href="mailto:sardal.shantanu@gmail.com" target="_blank">
+                            <i class="fas fa-envelope fa-3x d-block mb-2"></i>
+                            <p class="d-block mx-3">sardal.shantanu@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="https://www.linkedin.com/in/shantanusardal/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-3x d-block mb-2"></i>
+                            <p class="d-block mx-3">LinkedIn</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container-fluid text-center text-white">
+            <div class="row py-3">
+                <h5 class="col-12 mb-0 mt-4 py-2 text-secondary">Inspired by Sunwoo Kang's <a href="http://web.stanford.edu/~swkang73" target="_blank">website</a></h5>
+                <h5 class="col-12 mb-4 text-secondary">Based on a design by <a href="http://www.styleshout.com/">Styleshout</a></h5>
+            </div>
+        </div>
+        <a href="#"><i id="scrollup" class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
